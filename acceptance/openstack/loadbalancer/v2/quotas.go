@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/quotas"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/quotas"
 )
 
 var quotaUpdateOpts = quotas.UpdateOpts{

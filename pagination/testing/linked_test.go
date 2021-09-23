@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/pagination"
-	"github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // LinkedPager sample and test cases.

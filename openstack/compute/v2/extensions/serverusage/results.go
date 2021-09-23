@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // UsageExt represents OS-SRV-USG server response fields.

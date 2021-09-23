@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // Template is a structure that represents OpenStack Heat templates

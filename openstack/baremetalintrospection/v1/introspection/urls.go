@@ -1,6 +1,6 @@
 package introspection
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func listIntrospectionsURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("introspection")

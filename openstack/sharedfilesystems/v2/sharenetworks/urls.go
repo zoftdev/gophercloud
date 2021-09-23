@@ -1,6 +1,6 @@
 package sharenetworks
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func createURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("share-networks")

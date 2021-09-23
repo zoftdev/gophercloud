@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/swauth"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/openstack"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/objectstorage/v1/swauth"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestAuth(t *testing.T) {

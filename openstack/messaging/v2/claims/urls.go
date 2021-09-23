@@ -1,6 +1,6 @@
 package claims
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	apiVersion = "v2"

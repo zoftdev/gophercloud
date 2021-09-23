@@ -5,12 +5,12 @@ package httpbasic
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	v1 "github.com/gophercloud/gophercloud/acceptance/openstack/baremetal/v1"
-	"github.com/gophercloud/gophercloud/openstack/baremetal/v1/ports"
-	"github.com/gophercloud/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	v1 "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/baremetal/v1"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/baremetal/v1/ports"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestPortsCreateDestroy(t *testing.T) {

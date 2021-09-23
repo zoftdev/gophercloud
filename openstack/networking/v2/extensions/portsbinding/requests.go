@@ -1,7 +1,7 @@
 package portsbinding
 
 import (
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/ports"
 )
 
 // CreateOptsExt adds port binding options to the base ports.CreateOpts.

@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 var (

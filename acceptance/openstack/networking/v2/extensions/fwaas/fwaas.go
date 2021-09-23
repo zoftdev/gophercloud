@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/fwaas/firewalls"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/fwaas/routerinsertion"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateFirewall will create a Firewall with a random name and a specified

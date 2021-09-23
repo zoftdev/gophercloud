@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clustertemplates"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/containerinfra/v1/clustertemplates"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestClusterTemplatesCRUD(t *testing.T) {

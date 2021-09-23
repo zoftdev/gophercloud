@@ -1,6 +1,6 @@
 package quotas
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "quotas"
 const resourcePathDetail = "details.json"

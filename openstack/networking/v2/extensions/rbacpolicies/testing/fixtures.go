@@ -1,7 +1,7 @@
 package testing
 
 import (
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/rbacpolicies"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/rbacpolicies"
 )
 
 const ListResponse = `

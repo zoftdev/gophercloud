@@ -1,9 +1,9 @@
 package openstack
 
 import (
-	"github.com/gophercloud/gophercloud"
-	tokens2 "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud"
+	tokens2 "gitlab.com/nxcp/tools/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
 )
 
 /*

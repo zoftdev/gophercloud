@@ -1,7 +1,7 @@
 package acls
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // GetContainerACL retrieves the ACL of a container.

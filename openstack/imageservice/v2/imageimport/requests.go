@@ -1,6 +1,6 @@
 package imageimport
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // ImportMethod represents valid Import API method.
 type ImportMethod string

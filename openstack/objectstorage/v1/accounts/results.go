@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // UpdateResult is returned from a call to the Update function.

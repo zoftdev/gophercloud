@@ -3,9 +3,9 @@ package v1
 import (
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/container/v1/capsules"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/container/v1/capsules"
 )
 
 // WaitForCapsuleStatus will poll a capsule's status until it either matches

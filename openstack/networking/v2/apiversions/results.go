@@ -1,7 +1,7 @@
 package apiversions
 
 import (
-	"github.com/gophercloud/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // APIVersion represents an API version for Neutron. It contains the status of

@@ -1,6 +1,6 @@
 package actions
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 var apiVersion = "v1"
 var apiName = "actions"

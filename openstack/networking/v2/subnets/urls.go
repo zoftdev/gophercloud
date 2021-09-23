@@ -1,6 +1,6 @@
 package subnets
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func resourceURL(c *gophercloud.ServiceClient, id string) string {
 	return c.ServiceURL("subnets", id)

@@ -3,7 +3,7 @@ package messages
 import (
 	"net/url"
 
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 const (

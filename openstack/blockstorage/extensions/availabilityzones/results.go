@@ -1,7 +1,7 @@
 package availabilityzones
 
 import (
-	"github.com/gophercloud/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // ZoneState represents the current state of the availability zone.

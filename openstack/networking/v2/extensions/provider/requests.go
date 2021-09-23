@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
 )
 
 // CreateOptsExt adds a Segments option to the base Network CreateOpts.

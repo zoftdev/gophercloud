@@ -1,6 +1,6 @@
 package servergroups
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "os-server-groups"
 

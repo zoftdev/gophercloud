@@ -5,9 +5,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/orchestration/v1/stackevents"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/orchestration/v1/stackevents"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestStackEvents(t *testing.T) {

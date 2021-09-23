@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestServerRescueUnrescue(t *testing.T) {

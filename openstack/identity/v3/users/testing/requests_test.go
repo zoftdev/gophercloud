@@ -3,12 +3,12 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/groups"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/projects"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/users"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/groups"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/projects"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/users"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestListUsers(t *testing.T) {

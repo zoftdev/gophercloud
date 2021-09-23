@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/workflow/v2/executions"
-	"github.com/gophercloud/gophercloud/openstack/workflow/v2/workflows"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/workflow/v2/executions"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/workflow/v2/workflows"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateExecution creates an execution for the given workflow.

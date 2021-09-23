@@ -1,6 +1,6 @@
 package secgroups
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	secgrouppath = "os-security-groups"

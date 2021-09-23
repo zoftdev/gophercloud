@@ -1,6 +1,6 @@
 package capsules
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func getURL(client *gophercloud.ServiceClient, id string) string {
 	return client.ServiceURL("capsules", id)

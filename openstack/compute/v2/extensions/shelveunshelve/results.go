@@ -1,6 +1,6 @@
 package shelveunshelve
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // ShelveResult is the response from a Shelve operation. Call its ExtractErr
 // method to determine if the request succeeded or failed.

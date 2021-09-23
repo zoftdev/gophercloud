@@ -1,8 +1,8 @@
 package catalog
 
 import (
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	"github.com/gophercloud/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // ServiceCatalogPage is a single page of Service results.

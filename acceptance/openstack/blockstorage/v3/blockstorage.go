@@ -6,13 +6,13 @@ package v3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/qos"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/snapshots"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumes"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumetypes"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/qos"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/snapshots"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumetypes"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateSnapshot will create a snapshot of the specified volume.

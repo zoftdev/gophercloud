@@ -1,8 +1,8 @@
 package diskconfig
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
 )
 
 // DiskConfig represents one of the two possible settings for the DiskConfig

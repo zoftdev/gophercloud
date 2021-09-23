@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/baremetalintrospection/v1/introspection"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/baremetalintrospection/v1/introspection"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestLLDPTLVErrors(t *testing.T) {

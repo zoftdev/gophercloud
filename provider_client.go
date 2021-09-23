@@ -10,6 +10,8 @@ import (
 	"net/http"
 	"strings"
 	"sync"
+
+	"gitlab.com/nxcp/tools/gophercloud/core"
 )
 
 // DefaultUserAgent is the default User-Agent string set in the request header.
@@ -362,6 +364,16 @@ func (client *ProviderClient) doRequest(method, url string, options *RequestOpts
 	var body io.Reader
 	var contentType *string
 
+	s := core.Signer{}
+	if strings.HasPrefix(client.TokenID, "aksk") {
+		ak := strings.Split(client.TokenID, "|")[0][4:]
+		sk := strings.Split(client.TokenID, "|")[1]
+		s = core.Signer{
+			Key:    ak,
+			Secret: sk,
+		}
+	}
+
 	// Derive the content body by either encoding an arbitrary object as JSON, or by taking a provided
 	// io.ReadSeeker as-is. Default the content-type to application/json.
 	if options.JSONBody != nil {
@@ -388,6 +400,7 @@ func (client *ProviderClient) doRequest(method, url string, options *RequestOpts
 	}
 
 	// Construct the http.Request.
+
 	req, err := http.NewRequest(method, url, body)
 	if err != nil {
 		return nil, err
@@ -412,13 +425,18 @@ func (client *ProviderClient) doRequest(method, url string, options *RequestOpts
 		}
 	}
 
-	// get latest token from client
-	for k, v := range client.AuthenticatedHeaders() {
-		req.Header.Set(k, v)
+	prereqtok := ""
+
+	if strings.HasPrefix(client.TokenID, "aksk") {
+		s.Sign(req)
+	} else {
+		// get latest token from client
+		for k, v := range client.AuthenticatedHeaders() {
+			req.Header.Set(k, v)
+		}
+
+		prereqtok = req.Header.Get("X-Auth-Token")
 	}
-
-	prereqtok := req.Header.Get("X-Auth-Token")
-
 	// Issue the request.
 	resp, err := client.HTTPClient.Do(req)
 	if err != nil {

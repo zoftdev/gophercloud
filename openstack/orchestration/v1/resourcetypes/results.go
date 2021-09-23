@@ -1,7 +1,7 @@
 package resourcetypes
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // ResourceTypeSummary contains the result of listing an available resource

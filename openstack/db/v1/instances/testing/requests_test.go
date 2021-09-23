@@ -3,12 +3,12 @@ package testing
 import (
 	"testing"
 
-	db "github.com/gophercloud/gophercloud/openstack/db/v1/databases"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/instances"
-	"github.com/gophercloud/gophercloud/openstack/db/v1/users"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	db "gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/databases"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/instances"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/users"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

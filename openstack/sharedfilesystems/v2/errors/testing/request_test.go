@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/errors"
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/shares"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/v2/errors"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/v2/shares"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

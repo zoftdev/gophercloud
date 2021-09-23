@@ -1,6 +1,6 @@
 package acls
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func containerURL(client *gophercloud.ServiceClient, containerID string) string {
 	return client.ServiceURL("containers", containerID, "acl")

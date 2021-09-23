@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/aggregates"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/hypervisors"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/aggregates"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/hypervisors"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestAggregatesList(t *testing.T) {

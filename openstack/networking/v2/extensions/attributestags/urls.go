@@ -1,6 +1,6 @@
 package attributestags
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	tagsPath = "tags"

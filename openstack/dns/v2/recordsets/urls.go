@@ -1,6 +1,6 @@
 package recordsets
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func baseURL(c *gophercloud.ServiceClient, zoneID string) string {
 	return c.ServiceURL("zones", zoneID, "recordsets")

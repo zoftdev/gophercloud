@@ -1,6 +1,6 @@
 package trusts
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "OS-TRUST/trusts"
 

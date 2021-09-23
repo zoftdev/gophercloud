@@ -6,16 +6,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/actions"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/clusters"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/nodes"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/policies"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/profiles"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/receivers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/actions"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/clusters"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/nodes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/policies"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/profiles"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/receivers"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 var TestPolicySpec = policies.Spec{

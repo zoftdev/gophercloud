@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/migrate"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/migrate"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestMigrate(t *testing.T) {

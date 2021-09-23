@@ -1,6 +1,6 @@
 package loadbalancers
 
-import "github.com/gophercloud/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	rootPath       = "lbaas"
