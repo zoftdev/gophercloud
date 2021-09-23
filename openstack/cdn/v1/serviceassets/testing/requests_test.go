@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/cdn/v1/serviceassets"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/cdn/v1/serviceassets"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestDelete(t *testing.T) {

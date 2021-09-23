@@ -5,9 +5,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/db/v1/instances"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/instances"
 )
 
 // Because it takes so long to create an instance,

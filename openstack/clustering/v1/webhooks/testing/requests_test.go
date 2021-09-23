@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/clustering/v1/webhooks"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/webhooks"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestWebhookTrigger(t *testing.T) {

@@ -5,10 +5,10 @@ package fwaas
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestRuleCRUD(t *testing.T) {

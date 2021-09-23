@@ -1,7 +1,7 @@
 package apiversions
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // APIVersions represents the result from getting a list of all versions available

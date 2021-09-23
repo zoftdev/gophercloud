@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/messaging/v2/messages"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/messaging/v2/messages"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 func TestListMessages(t *testing.T) {

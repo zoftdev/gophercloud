@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/subnets"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/subnets"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestHostRoute(t *testing.T) {

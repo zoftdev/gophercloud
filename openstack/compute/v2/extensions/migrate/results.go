@@ -1,7 +1,7 @@
 package migrate
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // MigrateResult is the response from a Migrate operation. Call its ExtractErr

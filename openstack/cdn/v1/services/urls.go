@@ -1,6 +1,6 @@
 package services
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func listURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("services")

@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/messaging/v2/claims"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/messaging/v2/claims"
 )
 
 func TestCRUDClaim(t *testing.T) {

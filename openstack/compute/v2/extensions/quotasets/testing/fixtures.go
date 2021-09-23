@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/quotasets"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/quotasets"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // GetOutput is a sample response to a Get call.

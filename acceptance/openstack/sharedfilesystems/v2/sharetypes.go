@@ -3,9 +3,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/v2/sharetypes"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/v2/sharetypes"
 )
 
 // CreateShareType will create a share type with a random name. An

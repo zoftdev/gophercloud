@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/endpoints"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/endpoints"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestCreateSuccessful(t *testing.T) {

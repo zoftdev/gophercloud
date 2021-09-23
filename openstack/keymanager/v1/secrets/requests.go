@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // DateFilter represents a valid filter to use for filtering

@@ -5,12 +5,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	identity "github.com/zoftdev/gophercloud/acceptance/openstack/identity/v3"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	transferAccepts "github.com/zoftdev/gophercloud/openstack/dns/v2/transfer/accept"
-	transferRequests "github.com/zoftdev/gophercloud/openstack/dns/v2/transfer/request"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	identity "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/identity/v3"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	transferAccepts "gitlab.com/nxcp/tools/gophercloud/openstack/dns/v2/transfer/accept"
+	transferRequests "gitlab.com/nxcp/tools/gophercloud/openstack/dns/v2/transfer/request"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestTransferRequestCRUD(t *testing.T) {

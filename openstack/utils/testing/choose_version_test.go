@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/utils"
-	"github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/utils"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func setupVersionHandler() {

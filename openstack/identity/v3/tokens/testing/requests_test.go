@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // authTokenPost verifies that providing certain AuthOptions and Scope results in an expected JSON structure.

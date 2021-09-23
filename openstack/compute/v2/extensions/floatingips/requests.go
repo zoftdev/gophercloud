@@ -1,8 +1,8 @@
 package floatingips
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of FloatingIPs.

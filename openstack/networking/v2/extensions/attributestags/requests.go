@@ -1,7 +1,7 @@
 package attributestags
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // ReplaceAllOptsBuilder allows extensions to add additional parameters to

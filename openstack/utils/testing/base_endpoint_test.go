@@ -3,8 +3,8 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/utils"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/utils"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 type endpointTestCases struct {

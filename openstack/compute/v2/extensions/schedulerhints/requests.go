@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
 )
 
 // SchedulerHints represents a set of scheduling hints that are passed to the

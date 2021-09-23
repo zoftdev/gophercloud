@@ -3,11 +3,11 @@ package mtu
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/mtu"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/networks"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/mtu"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 type NetworkMTU struct {

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/l7policies"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/l7policies"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // SingleL7PolicyBody is the canned body of a Get request on an existing l7policy.

@@ -1,8 +1,8 @@
 package secgroups
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 func commonList(client *gophercloud.ServiceClient, url string) pagination.Pager {

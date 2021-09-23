@@ -1,8 +1,8 @@
 package monitors
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // Monitor represents a load balancer health monitor. A health monitor is used

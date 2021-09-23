@@ -3,7 +3,7 @@ package queues
 import (
 	"net/url"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 const (

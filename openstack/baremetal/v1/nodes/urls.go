@@ -1,6 +1,6 @@
 package nodes
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func createURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("nodes")

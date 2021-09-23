@@ -1,7 +1,7 @@
 package clusters
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 var apiName = "clusters"

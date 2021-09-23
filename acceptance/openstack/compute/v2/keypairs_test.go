@@ -5,12 +5,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	identity "github.com/zoftdev/gophercloud/acceptance/openstack/identity/v3"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	identity "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/identity/v3"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 	"golang.org/x/crypto/ssh"
 )
 

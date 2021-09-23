@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	fake "github.com/zoftdev/gophercloud/openstack/networking/v2/common"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/common"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestListHealthmonitors(t *testing.T) {

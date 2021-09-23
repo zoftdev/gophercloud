@@ -1,8 +1,8 @@
 package policytypes
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // PolicyType represents a clustering policy type in the Openstack cloud.

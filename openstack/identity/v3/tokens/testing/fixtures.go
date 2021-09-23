@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 const testTokenID = "130f6c17-420e-4a0b-97b0-0c9cf2a05f30"

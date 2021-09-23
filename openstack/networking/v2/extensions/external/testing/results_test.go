@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/zoftdev/gophercloud/openstack/networking/v2/common"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/external"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/networks"
-	nettest "github.com/zoftdev/gophercloud/openstack/networking/v2/networks/testing"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/common"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/external"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
+	nettest "gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks/testing"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestList(t *testing.T) {

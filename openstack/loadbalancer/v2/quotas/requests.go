@@ -1,7 +1,7 @@
 package quotas
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // Get returns load balancer Quotas for a project.

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/remoteconsoles"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/remoteconsoles"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/backups"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/extensions/backups"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const ListResponse = `

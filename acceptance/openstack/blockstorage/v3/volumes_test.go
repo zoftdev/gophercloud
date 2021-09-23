@@ -5,12 +5,12 @@ package v3
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/snapshots"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumes"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/snapshots"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumes"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestVolumes(t *testing.T) {

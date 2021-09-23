@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/containers"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/containers"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestListContainers(t *testing.T) {

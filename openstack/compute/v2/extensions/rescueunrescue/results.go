@@ -1,6 +1,6 @@
 package rescueunrescue
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 type commonResult struct {
 	gophercloud.Result

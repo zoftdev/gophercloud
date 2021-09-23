@@ -1,8 +1,8 @@
 package evacuate
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions"
 )
 
 // EvacuateOptsBuilder allows extensions to add additional parameters to the

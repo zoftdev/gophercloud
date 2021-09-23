@@ -3,14 +3,14 @@ package extensions
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/external"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/security/groups"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/security/rules"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/networks"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/ports"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/external"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/security/groups"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/security/rules"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/ports"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateExternalNetwork will create an external network. An error will be

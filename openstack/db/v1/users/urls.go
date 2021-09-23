@@ -1,6 +1,6 @@
 package users
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func baseURL(c *gophercloud.ServiceClient, instanceID string) string {
 	return c.ServiceURL("instances", instanceID, "users")

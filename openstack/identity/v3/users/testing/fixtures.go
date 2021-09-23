@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/groups"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/projects"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/users"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/groups"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/projects"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/users"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // ListOutput provides a single page of User results.

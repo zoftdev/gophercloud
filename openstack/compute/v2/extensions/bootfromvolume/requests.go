@@ -1,8 +1,8 @@
 package bootfromvolume
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
 )
 
 type (

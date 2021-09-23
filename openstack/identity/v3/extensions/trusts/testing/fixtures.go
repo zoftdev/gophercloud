@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/trusts"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/trusts"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const CreateRequest = `

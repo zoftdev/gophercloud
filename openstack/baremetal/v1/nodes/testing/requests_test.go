@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/baremetal/v1/nodes"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/baremetal/v1/nodes"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestListDetailNodes(t *testing.T) {

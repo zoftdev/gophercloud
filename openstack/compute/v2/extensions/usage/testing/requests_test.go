@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/usage"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/usage"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestGetTenant(t *testing.T) {

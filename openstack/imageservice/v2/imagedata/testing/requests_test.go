@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/imageservice/v2/imagedata"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fakeclient "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/imageservice/v2/imagedata"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fakeclient "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestUpload(t *testing.T) {

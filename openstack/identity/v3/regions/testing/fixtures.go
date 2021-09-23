@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/regions"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/regions"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // ListOutput provides a single page of Region results.

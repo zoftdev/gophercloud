@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/openstack/clustering/v1/events"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/clustering/v1/events"
 
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const ListResponse = `

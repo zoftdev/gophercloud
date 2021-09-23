@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/apiversions"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/apiversions"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const ManilaAPIVersionResponse = `

@@ -1,6 +1,6 @@
 package projects
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func listAvailableURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("auth", "projects")

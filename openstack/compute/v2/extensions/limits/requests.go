@@ -1,7 +1,7 @@
 package limits
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // GetOptsBuilder allows extensions to add additional parameters to the

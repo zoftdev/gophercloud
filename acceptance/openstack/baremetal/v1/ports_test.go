@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/openstack/baremetal/v1/ports"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/baremetal/v1/ports"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 
-	th "github.com/zoftdev/gophercloud/testhelper"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestPortsCreateDestroy(t *testing.T) {

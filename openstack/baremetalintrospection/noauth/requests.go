@@ -3,7 +3,7 @@ package noauth
 import (
 	"fmt"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // EndpointOpts specifies a "noauth" Ironic Inspector Endpoint.

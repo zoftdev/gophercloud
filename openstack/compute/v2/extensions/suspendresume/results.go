@@ -1,6 +1,6 @@
 package suspendresume
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // SuspendResult is the response from a Suspend operation. Call its
 // ExtractErr method to determine if the request succeeded or failed.

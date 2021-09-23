@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // PageResult stores the HTTP response that returned the current page of results.

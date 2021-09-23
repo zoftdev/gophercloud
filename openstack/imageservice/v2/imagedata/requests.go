@@ -3,7 +3,7 @@ package imagedata
 import (
 	"io"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // Upload uploads an image file.

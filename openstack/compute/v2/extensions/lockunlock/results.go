@@ -1,7 +1,7 @@
 package lockunlock
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // LockResult and UnlockResult are the responses from a Lock and Unlock

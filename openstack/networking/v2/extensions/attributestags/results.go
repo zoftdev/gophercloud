@@ -1,7 +1,7 @@
 package attributestags
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 type tagResult struct {

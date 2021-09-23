@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/acls"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/acls"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestGetSecretACL(t *testing.T) {

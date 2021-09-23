@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/containers"
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/orders"
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/secrets"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/containers"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/orders"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/secrets"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateAsymmetric Order will create a random asymmetric order.

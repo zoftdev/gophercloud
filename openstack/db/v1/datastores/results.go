@@ -1,8 +1,8 @@
 package datastores
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // Version represents a version API resource. Multiple versions belong to a Datastore.

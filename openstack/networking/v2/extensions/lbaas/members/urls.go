@@ -1,6 +1,6 @@
 package members
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	rootPath     = "lb"

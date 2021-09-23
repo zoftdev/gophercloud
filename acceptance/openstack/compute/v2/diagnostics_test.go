@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/diagnostics"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/diagnostics"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestDiagnostics(t *testing.T) {

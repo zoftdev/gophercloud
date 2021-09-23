@@ -3,9 +3,9 @@ package trusts
 import (
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // AuthOptsExt extends the base Identity v3 tokens AuthOpts with a TrustID.

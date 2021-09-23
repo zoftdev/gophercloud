@@ -3,8 +3,8 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/baremetalintrospection/noauth"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/baremetalintrospection/noauth"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestNoAuth(t *testing.T) {

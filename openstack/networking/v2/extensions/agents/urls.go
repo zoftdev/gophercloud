@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "agents"
 const dhcpNetworksResourcePath = "dhcp-networks"

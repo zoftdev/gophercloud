@@ -3,8 +3,8 @@ package stacks
 import (
 	"strings"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order

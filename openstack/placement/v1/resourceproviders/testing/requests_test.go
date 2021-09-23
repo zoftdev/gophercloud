@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/placement/v1/resourceproviders"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/placement/v1/resourceproviders"
 
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestListResourceProviders(t *testing.T) {

@@ -1,7 +1,7 @@
 package resourcetypes
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // SupportStatus is a type for specifying by which support status to filter the

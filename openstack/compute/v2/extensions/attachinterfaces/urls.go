@@ -1,6 +1,6 @@
 package attachinterfaces
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func listInterfaceURL(client *gophercloud.ServiceClient, serverID string) string {
 	return client.ServiceURL("servers", serverID, "os-interface")

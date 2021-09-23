@@ -1,7 +1,7 @@
 package limits
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 const resourcePath = "limits"

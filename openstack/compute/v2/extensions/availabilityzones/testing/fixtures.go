@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	az "github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/availabilityzones"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	az "gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/availabilityzones"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const GetOutput = `

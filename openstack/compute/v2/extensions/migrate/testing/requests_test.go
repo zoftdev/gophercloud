@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/migrate"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/migrate"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 const serverID = "b16ba811-199d-4ffd-8839-ba96c1185a67"

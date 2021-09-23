@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/db/v1/configurations"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/configurations"
 )
 
 var (

@@ -1,7 +1,7 @@
 package testing
 
 import (
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/subnets"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/subnets"
 )
 
 const SubnetListResult = `

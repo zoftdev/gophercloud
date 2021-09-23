@@ -3,8 +3,8 @@ package messages
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/v2/messages"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/v2/messages"
 )
 
 // DeleteMessage will delete a message. An error will occur if

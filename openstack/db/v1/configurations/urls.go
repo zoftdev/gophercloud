@@ -1,6 +1,6 @@
 package configurations
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func baseURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("configurations")

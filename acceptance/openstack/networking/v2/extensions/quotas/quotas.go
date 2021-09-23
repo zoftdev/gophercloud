@@ -1,8 +1,8 @@
 package quotas
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/quotas"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/quotas"
 )
 
 var updateOpts = quotas.UpdateOpts{

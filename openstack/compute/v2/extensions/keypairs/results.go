@@ -1,8 +1,8 @@
 package keypairs
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // KeyPair is an SSH key known to the OpenStack Cloud that is available to be

@@ -11,9 +11,9 @@ Prepare required import packages
 
 import (
   "fmt"
-  "github.com/zoftdev/gophercloud"
-  "github.com/zoftdev/gophercloud/openstack"
-  "github.com/zoftdev/gophercloud/openstack/orchestration/v1/stacks"
+  "gitlab.com/nxcp/tools/gophercloud"
+  "gitlab.com/nxcp/tools/gophercloud/openstack"
+  "gitlab.com/nxcp/tools/gophercloud/openstack/orchestration/v1/stacks"
 )
 
 Example of Preparing Orchestration client:

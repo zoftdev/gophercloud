@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/networks"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
 )
 
 // ListOptsExt adds the external network options to the base ListOpts.

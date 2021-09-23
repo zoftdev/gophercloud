@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/workflow/v2/crontriggers"
-	"github.com/zoftdev/gophercloud/openstack/workflow/v2/workflows"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/workflow/v2/crontriggers"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/workflow/v2/workflows"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateCronTrigger creates a cron trigger for the given workflow.

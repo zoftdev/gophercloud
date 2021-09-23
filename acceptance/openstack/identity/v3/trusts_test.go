@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/trusts"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/roles"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/users"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/trusts"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/roles"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/users"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestTrustCRUD(t *testing.T) {

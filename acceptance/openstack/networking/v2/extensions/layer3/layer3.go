@@ -3,17 +3,17 @@ package layer3
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/layer3/addressscopes"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/layer3/floatingips"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/layer3/portforwarding"
 
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/ports"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/ports"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateFloatingIP creates a floating IP on a given network and port. An error

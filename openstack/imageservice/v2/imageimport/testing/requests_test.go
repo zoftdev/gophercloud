@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/imageservice/v2/imageimport"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fakeclient "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/imageservice/v2/imageimport"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fakeclient "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestGet(t *testing.T) {

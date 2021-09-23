@@ -8,16 +8,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/backups"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/volumeactions"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v2/volumes"
-	v3 "github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumes"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumetypes"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/images"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/extensions/backups"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/extensions/volumeactions"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v2/volumes"
+	v3 "gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumetypes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/images"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateUploadImage will upload volume it as volume-baked image. An name of new image or err will be

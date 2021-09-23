@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/quotas"
-	fake "github.com/zoftdev/gophercloud/openstack/networking/v2/common"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/quotas"
+	fake "gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/common"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestGet_1(t *testing.T) {

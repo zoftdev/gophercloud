@@ -3,7 +3,7 @@ package servers
 import (
 	"fmt"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // ErrNeitherImageIDNorImageNameProvided is the error when neither the image

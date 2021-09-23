@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/ec2tokens"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	tokens_testing "github.com/zoftdev/gophercloud/openstack/identity/v3/tokens/testing"
-	"github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/ec2tokens"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	tokens_testing "gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens/testing"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // authTokenPost verifies that providing certain AuthOptions and Scope results in an expected JSON structure.

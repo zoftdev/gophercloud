@@ -3,7 +3,7 @@ package schedulerhints
 import (
 	"regexp"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // SchedulerHints represents a set of scheduling hints that are passed to the

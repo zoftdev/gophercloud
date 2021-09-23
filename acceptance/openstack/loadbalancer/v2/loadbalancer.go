@@ -5,14 +5,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/l7policies"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/listeners"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/loadbalancers"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/monitors"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/pools"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/l7policies"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/listeners"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/loadbalancers"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/monitors"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/pools"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateListener will create a listener for a given load balancer on a random

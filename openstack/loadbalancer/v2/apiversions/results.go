@@ -1,6 +1,6 @@
 package apiversions
 
-import "github.com/zoftdev/gophercloud/pagination"
+import "gitlab.com/nxcp/tools/gophercloud/pagination"
 
 // APIVersion represents an API version for load balancer. It contains
 // the status of the API, and its unique ID.

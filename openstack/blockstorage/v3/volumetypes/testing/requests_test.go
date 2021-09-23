@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumetypes"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumetypes"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestListAll(t *testing.T) {

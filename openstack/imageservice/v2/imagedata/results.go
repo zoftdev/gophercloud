@@ -3,7 +3,7 @@ package imagedata
 import (
 	"io"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // UploadResult is the result of an upload image operation. Call its ExtractErr

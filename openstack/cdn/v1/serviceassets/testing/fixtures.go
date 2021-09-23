@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // HandleDeleteCDNAssetSuccessfully creates an HTTP handler at `/services/{id}/assets` on the test handler mux

@@ -1,8 +1,8 @@
 package pauseunpause
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions"
 )
 
 // Pause is the operation responsible for pausing a Compute server.

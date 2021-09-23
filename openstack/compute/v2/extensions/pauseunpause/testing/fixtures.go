@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func mockPauseServerResponse(t *testing.T, id string) {

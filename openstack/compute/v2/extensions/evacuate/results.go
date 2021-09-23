@@ -1,7 +1,7 @@
 package evacuate
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // EvacuateResult is the response from an Evacuate operation.

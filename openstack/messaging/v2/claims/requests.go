@@ -1,7 +1,7 @@
 package claims
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // CreateOptsBuilder Builder.

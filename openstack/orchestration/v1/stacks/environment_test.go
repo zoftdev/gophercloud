@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	th "github.com/zoftdev/gophercloud/testhelper"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestEnvironmentValidation(t *testing.T) {

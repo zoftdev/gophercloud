@@ -1,6 +1,6 @@
 package objects
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // ErrWrongChecksum is the error when the checksum generated for an object
 // doesn't match the ETAG header.

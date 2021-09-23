@@ -1,7 +1,7 @@
 package attachments
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // WaitForStatus will continually poll the resource, checking for a particular

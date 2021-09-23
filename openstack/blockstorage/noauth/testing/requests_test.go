@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/noauth"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/noauth"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestNoAuth(t *testing.T) {

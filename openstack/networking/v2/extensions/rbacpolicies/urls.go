@@ -1,6 +1,6 @@
 package rbacpolicies
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func resourceURL(c *gophercloud.ServiceClient, id string) string {
 	return c.ServiceURL("rbac-policies", id)

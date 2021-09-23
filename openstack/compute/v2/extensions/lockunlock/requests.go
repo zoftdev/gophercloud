@@ -1,8 +1,8 @@
 package lockunlock
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions"
 )
 
 // Lock is the operation responsible for locking a Compute server.

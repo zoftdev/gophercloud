@@ -3,12 +3,12 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/db/v1/configurations"
-	"github.com/zoftdev/gophercloud/openstack/db/v1/instances"
-	"github.com/zoftdev/gophercloud/pagination"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
-	"github.com/zoftdev/gophercloud/testhelper/fixture"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/configurations"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/instances"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/fixture"
 )
 
 var (

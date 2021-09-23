@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zoftdev/gophercloud"
-	tokens2 "github.com/zoftdev/gophercloud/openstack/identity/v2/tokens"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/ec2tokens"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/oauth1"
-	tokens3 "github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	"github.com/zoftdev/gophercloud/openstack/utils"
+	"gitlab.com/nxcp/tools/gophercloud"
+	tokens2 "gitlab.com/nxcp/tools/gophercloud/openstack/identity/v2/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/ec2tokens"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/oauth1"
+	tokens3 "gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/utils"
 )
 
 const (

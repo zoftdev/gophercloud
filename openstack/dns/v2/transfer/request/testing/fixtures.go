@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	transferRequests "github.com/zoftdev/gophercloud/openstack/dns/v2/transfer/request"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	transferRequests "gitlab.com/nxcp/tools/gophercloud/openstack/dns/v2/transfer/request"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 // ListOutput is a sample response to a List call.

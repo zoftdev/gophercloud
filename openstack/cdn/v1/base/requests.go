@@ -1,6 +1,6 @@
 package base
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // Get retrieves the home document, allowing the user to discover the
 // entire API.

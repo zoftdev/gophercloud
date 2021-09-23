@@ -5,12 +5,12 @@ package v3
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/ec2credentials"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/ec2credentials"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/tokens"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestEC2CredentialsCRD(t *testing.T) {

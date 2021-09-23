@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/workflow/v2/crontriggers"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/workflow/v2/crontriggers"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestCronTriggersCreateGetDelete(t *testing.T) {

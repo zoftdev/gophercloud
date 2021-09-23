@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zoftdev/gophercloud/core"
+	"gitlab.com/nxcp/tools/gophercloud/core"
 )
 
 // DefaultUserAgent is the default User-Agent string set in the request header.

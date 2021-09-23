@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestServiceURL(t *testing.T) {

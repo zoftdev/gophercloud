@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/extendedserverattributes"
-	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	fake "github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/extensions/extendedserverattributes"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/compute/v2/servers"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	fake "gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestServerWithUsageExt(t *testing.T) {

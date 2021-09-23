@@ -3,7 +3,7 @@ package testing
 import (
 	"time"
 
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/trunks"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/trunks"
 )
 
 const CreateRequest = `

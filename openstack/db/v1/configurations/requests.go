@@ -1,9 +1,9 @@
 package configurations
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/db/v1/instances"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/instances"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // List will list all of the available configurations.

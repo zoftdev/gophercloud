@@ -3,8 +3,8 @@ package accept
 import (
 	"net/http"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add parameters to the List request.

@@ -3,9 +3,9 @@ package messages
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/v2/messages"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/sharedfilesystems/v2/messages"
 )
 
 const requestID = "req-6f52cd8b-25a1-42cf-b497-7babf70f55f4"

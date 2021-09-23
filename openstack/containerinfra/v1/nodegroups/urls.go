@@ -1,7 +1,7 @@
 package nodegroups
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 func getURL(c *gophercloud.ServiceClient, clusterID, nodeGroupID string) string {

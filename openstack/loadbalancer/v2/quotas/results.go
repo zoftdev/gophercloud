@@ -3,7 +3,7 @@ package quotas
 import (
 	"encoding/json"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 type commonResult struct {

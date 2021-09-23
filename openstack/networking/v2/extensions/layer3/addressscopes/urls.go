@@ -1,6 +1,6 @@
 package addressscopes
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "address-scopes"
 

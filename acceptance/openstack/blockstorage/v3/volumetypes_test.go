@@ -5,11 +5,11 @@ package v3
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	identity "github.com/zoftdev/gophercloud/acceptance/openstack/identity/v3"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumetypes"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	identity "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/identity/v3"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/blockstorage/v3/volumetypes"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestVolumeTypes(t *testing.T) {

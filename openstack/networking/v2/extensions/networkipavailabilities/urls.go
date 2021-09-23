@@ -1,6 +1,6 @@
 package networkipavailabilities
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "network-ip-availabilities"
 

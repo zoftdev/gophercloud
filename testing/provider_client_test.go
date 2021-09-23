@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoftdev/gophercloud"
-	th "github.com/zoftdev/gophercloud/testhelper"
-	"github.com/zoftdev/gophercloud/testhelper/client"
+	"gitlab.com/nxcp/tools/gophercloud"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/client"
 )
 
 func TestAuthenticatedHeaders(t *testing.T) {

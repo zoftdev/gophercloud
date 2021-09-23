@@ -3,10 +3,10 @@ package policies
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/qos/policies"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/qos/policies"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateQoSPolicy will create a QoS policy. An error will be returned if the

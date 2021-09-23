@@ -1,6 +1,6 @@
 package usage
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const resourcePath = "os-simple-tenant-usage"
 

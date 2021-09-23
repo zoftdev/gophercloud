@@ -5,11 +5,11 @@ package extensions
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	networking "github.com/zoftdev/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/networks"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	networking "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/networking/v2"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/networks"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestNetworksProviderCRUD(t *testing.T) {

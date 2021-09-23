@@ -5,13 +5,13 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	extensions "github.com/zoftdev/gophercloud/acceptance/openstack/networking/v2/extensions"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/portsecurity"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/ports"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	extensions "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/networking/v2/extensions"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/extensions/portsecurity"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/ports"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestPortsCRUD(t *testing.T) {

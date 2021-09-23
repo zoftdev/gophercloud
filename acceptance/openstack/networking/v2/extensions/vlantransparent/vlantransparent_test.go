@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	networkingv2 "github.com/zoftdev/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	networkingv2 "gitlab.com/nxcp/tools/gophercloud/acceptance/openstack/networking/v2"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestVLANTransparentCRUD(t *testing.T) {

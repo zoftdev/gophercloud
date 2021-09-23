@@ -1,7 +1,7 @@
 package workflows
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 func createURL(client *gophercloud.ServiceClient) string {

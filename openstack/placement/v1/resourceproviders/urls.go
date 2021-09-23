@@ -1,6 +1,6 @@
 package resourceproviders
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 const (
 	apiName = "resource_providers"

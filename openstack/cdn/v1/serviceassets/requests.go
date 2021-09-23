@@ -3,7 +3,7 @@ package serviceassets
 import (
 	"strings"
 
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // DeleteOptsBuilder allows extensions to add additional parameters to the Delete

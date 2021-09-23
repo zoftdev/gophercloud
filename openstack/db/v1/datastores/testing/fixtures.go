@@ -3,8 +3,8 @@ package testing
 import (
 	"fmt"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/db/v1/datastores"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/db/v1/datastores"
 )
 
 const version1JSON = `

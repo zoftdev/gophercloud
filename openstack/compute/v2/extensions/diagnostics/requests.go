@@ -1,7 +1,7 @@
 package diagnostics
 
 import (
-	"github.com/zoftdev/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud"
 )
 
 // Diagnostics

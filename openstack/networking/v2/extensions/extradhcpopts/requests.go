@@ -1,8 +1,8 @@
 package extradhcpopts
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/networking/v2/ports"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/networking/v2/ports"
 )
 
 // CreateOptsExt adds extra DHCP options to the base ports.CreateOpts.

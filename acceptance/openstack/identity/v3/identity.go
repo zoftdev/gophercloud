@@ -3,17 +3,17 @@ package v3
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/domains"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/extensions/trusts"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/groups"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/projects"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/regions"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/roles"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/services"
-	"github.com/zoftdev/gophercloud/openstack/identity/v3/users"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/domains"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/extensions/trusts"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/groups"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/projects"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/regions"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/roles"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/services"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/identity/v3/users"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 // CreateProject will create a project with a random name.

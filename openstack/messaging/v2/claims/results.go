@@ -1,6 +1,6 @@
 package claims
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func (r CreateResult) Extract() ([]Messages, error) {
 	var s struct {

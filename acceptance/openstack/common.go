@@ -5,7 +5,7 @@ package openstack
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/openstack/common/extensions"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/common/extensions"
 )
 
 // PrintExtension prints an extension and all of its attributes.

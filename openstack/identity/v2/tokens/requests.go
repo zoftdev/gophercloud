@@ -1,6 +1,6 @@
 package tokens
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // PasswordCredentialsV2 represents the required options to authenticate
 // with a username and password.

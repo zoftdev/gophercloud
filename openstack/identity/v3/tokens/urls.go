@@ -1,6 +1,6 @@
 package tokens
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 func tokenURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("auth", "tokens")

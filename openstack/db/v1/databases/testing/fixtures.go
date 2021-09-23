@@ -3,7 +3,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/testhelper/fixture"
+	"gitlab.com/nxcp/tools/gophercloud/testhelper/fixture"
 )
 
 var (

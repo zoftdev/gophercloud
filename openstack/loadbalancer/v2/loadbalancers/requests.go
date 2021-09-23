@@ -1,10 +1,10 @@
 package loadbalancers
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/listeners"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/pools"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/listeners"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/pools"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // ListOptsBuilder allows extensions to add additional parameters to the

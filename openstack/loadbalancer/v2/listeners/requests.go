@@ -1,10 +1,10 @@
 package listeners
 
 import (
-	"github.com/zoftdev/gophercloud"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/l7policies"
-	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/pools"
-	"github.com/zoftdev/gophercloud/pagination"
+	"gitlab.com/nxcp/tools/gophercloud"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/l7policies"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/loadbalancer/v2/pools"
+	"gitlab.com/nxcp/tools/gophercloud/pagination"
 )
 
 // Type Protocol represents a listener protocol.

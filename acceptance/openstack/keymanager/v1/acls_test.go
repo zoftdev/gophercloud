@@ -5,10 +5,10 @@ package v1
 import (
 	"testing"
 
-	"github.com/zoftdev/gophercloud/acceptance/clients"
-	"github.com/zoftdev/gophercloud/acceptance/tools"
-	"github.com/zoftdev/gophercloud/openstack/keymanager/v1/acls"
-	th "github.com/zoftdev/gophercloud/testhelper"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/clients"
+	"gitlab.com/nxcp/tools/gophercloud/acceptance/tools"
+	"gitlab.com/nxcp/tools/gophercloud/openstack/keymanager/v1/acls"
+	th "gitlab.com/nxcp/tools/gophercloud/testhelper"
 )
 
 func TestACLCRUD(t *testing.T) {

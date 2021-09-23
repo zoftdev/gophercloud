@@ -1,6 +1,6 @@
 package base
 
-import "github.com/zoftdev/gophercloud"
+import "gitlab.com/nxcp/tools/gophercloud"
 
 // HomeDocument is a resource that contains all the resources for the CDN API.
 type HomeDocument map[string]interface{}
