@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/pagination"
 )
 
 // Consumer represents a delegated authorization request between two

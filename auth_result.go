@@ -6,15 +6,15 @@ client's Keystone token. It is returned from ProviderClient.GetAuthResult().
 
 The following types satisfy this interface:
 
-	github.com/gophercloud/gophercloud/openstack/identity/v2/tokens.CreateResult
-	github.com/gophercloud/gophercloud/openstack/identity/v3/tokens.CreateResult
+	github.com/zoftdev/gophercloud/openstack/identity/v2/tokens.CreateResult
+	github.com/zoftdev/gophercloud/openstack/identity/v3/tokens.CreateResult
 
 Usage example:
 
 	import (
-		"github.com/gophercloud/gophercloud"
-		tokens2 "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-		tokens3 "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
+		"github.com/zoftdev/gophercloud"
+		tokens2 "github.com/zoftdev/gophercloud/openstack/identity/v2/tokens"
+		tokens3 "github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
 	)
 
 	func GetAuthenticatedUserID(providerClient *gophercloud.ProviderClient) (string, error) {

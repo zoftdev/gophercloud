@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/flavors"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/flavors"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	fake "github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 const tokenID = "blerb"

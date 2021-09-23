@@ -1,8 +1,8 @@
 package databases
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/pagination"
 )
 
 // CreateOptsBuilder builds create options

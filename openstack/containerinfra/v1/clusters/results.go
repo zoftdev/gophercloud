@@ -3,8 +3,8 @@ package clusters
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/pagination"
 )
 
 type commonResult struct {

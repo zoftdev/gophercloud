@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/identity/v2/tenants"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/identity/v2/tenants"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestTenantsList(t *testing.T) {

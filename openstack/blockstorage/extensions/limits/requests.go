@@ -1,7 +1,7 @@
 package limits
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/zoftdev/gophercloud"
 )
 
 // Get returns the limits about the currently scoped tenant.

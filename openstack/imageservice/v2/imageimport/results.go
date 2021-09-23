@@ -1,6 +1,6 @@
 package imageimport
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/zoftdev/gophercloud"
 
 type commonResult struct {
 	gophercloud.Result

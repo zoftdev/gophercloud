@@ -1,8 +1,8 @@
 package suspendresume
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions"
 )
 
 // Suspend is the operation responsible for suspending a Compute server.

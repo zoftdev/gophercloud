@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/apiversions"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/loadbalancer/v2/apiversions"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 func TestListVersions(t *testing.T) {

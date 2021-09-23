@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/securityservices"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/v2/securityservices"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 // Verifies that a security service can be created correctly

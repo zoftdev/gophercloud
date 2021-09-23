@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/quotas"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/quotas"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestQuotasGet(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/pagination"
 )
 
 // CreateOptsBuilder allows extension to add additional parameters to the Create request.

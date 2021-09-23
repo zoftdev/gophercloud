@@ -6,12 +6,12 @@ import (
 	"net/url"
 	"testing"
 
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/portsecurity"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	fake "github.com/zoftdev/gophercloud/openstack/networking/v2/common"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/extradhcpopts"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/portsecurity"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/ports"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestList(t *testing.T) {

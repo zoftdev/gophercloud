@@ -5,11 +5,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/imageservice/v2/tasks"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/imageservice/v2/tasks"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestTasksListEachPage(t *testing.T) {

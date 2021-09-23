@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/zoftdev/gophercloud"
 )
 
 // EndpointOpts specifies a "http_basic" Ironic Endpoint

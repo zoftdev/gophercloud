@@ -3,10 +3,10 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/containerinfra/v1/clustertemplates"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/containerinfra/v1/clustertemplates"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	fake "github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 func TestCreateClusterTemplate(t *testing.T) {

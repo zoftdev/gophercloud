@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/identity/v2/tenants"
-	"github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	thclient "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/identity/v2/tenants"
+	"github.com/zoftdev/gophercloud/openstack/identity/v2/tokens"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	thclient "github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 // ExpectedToken is the token that should be parsed from TokenCreationResponse.

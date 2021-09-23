@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/actions"
-	"github.com/gophercloud/gophercloud/openstack/clustering/v1/clusters"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/clustering/v1/actions"
+	"github.com/zoftdev/gophercloud/openstack/clustering/v1/clusters"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestClustersCRUD(t *testing.T) {

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/members"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/lbaas/members"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/lbaas/pools"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
 )
 
 // CreateMember will create a load balancer member in a specified pool on a

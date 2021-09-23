@@ -1,8 +1,8 @@
 package nodegroups
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/pagination"
 )
 
 // Get makes a request to the Magnum API to retrieve a node group

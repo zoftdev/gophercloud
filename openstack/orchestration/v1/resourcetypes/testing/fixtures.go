@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/orchestration/v1/resourcetypes"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/orchestration/v1/resourcetypes"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	fake "github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 const BasicListOutput = `

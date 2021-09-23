@@ -1,6 +1,6 @@
 package allocations
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/zoftdev/gophercloud"
 
 func createURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("allocations")

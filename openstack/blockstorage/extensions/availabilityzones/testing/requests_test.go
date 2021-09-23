@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	az "github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/availabilityzones"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	az "github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/availabilityzones"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 // Verifies that availability zones can be listed correctly

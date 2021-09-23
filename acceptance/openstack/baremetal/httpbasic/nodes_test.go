@@ -3,12 +3,12 @@ package httpbasic
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	v1 "github.com/gophercloud/gophercloud/acceptance/openstack/baremetal/v1"
-	"github.com/gophercloud/gophercloud/openstack/baremetal/v1/nodes"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	v1 "github.com/zoftdev/gophercloud/acceptance/openstack/baremetal/v1"
+	"github.com/zoftdev/gophercloud/openstack/baremetal/v1/nodes"
+	"github.com/zoftdev/gophercloud/pagination"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestNodesCreateDestroy(t *testing.T) {

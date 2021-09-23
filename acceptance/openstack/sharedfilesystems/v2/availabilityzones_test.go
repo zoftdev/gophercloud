@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/availabilityzones"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/openstack/sharedfilesystems/v2/availabilityzones"
 )
 
 func TestAvailabilityZonesList(t *testing.T) {

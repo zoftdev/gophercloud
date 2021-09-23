@@ -5,11 +5,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/servergroups"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/servergroups"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestServergroupsCreateDelete(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/orchestration/v1/stacks"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/orchestration/v1/stacks"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 const basicTemplateResourceName = "secgroup_1"

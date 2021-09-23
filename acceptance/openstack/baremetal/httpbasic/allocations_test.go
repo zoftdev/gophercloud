@@ -5,11 +5,11 @@ package httpbasic
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	v1 "github.com/gophercloud/gophercloud/acceptance/openstack/baremetal/v1"
-	"github.com/gophercloud/gophercloud/openstack/baremetal/v1/allocations"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	v1 "github.com/zoftdev/gophercloud/acceptance/openstack/baremetal/v1"
+	"github.com/zoftdev/gophercloud/openstack/baremetal/v1/allocations"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestAllocationsCreateDestroy(t *testing.T) {

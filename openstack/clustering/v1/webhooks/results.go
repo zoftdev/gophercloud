@@ -1,7 +1,7 @@
 package webhooks
 
 import (
-	"github.com/gophercloud/gophercloud"
+	"github.com/zoftdev/gophercloud"
 )
 
 type commonResult struct {

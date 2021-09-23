@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/availabilityzones"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/diskconfig"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/extendedstatus"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/availabilityzones"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/diskconfig"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/extensions/extendedstatus"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/testhelper/client"
 )
 
 func TestListServers(t *testing.T) {

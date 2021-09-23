@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/schedulerhints"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumes"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/schedulerhints"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumes"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestCreateOpts(t *testing.T) {

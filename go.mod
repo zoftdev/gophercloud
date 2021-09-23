@@ -1,4 +1,4 @@
-module github.com/gophercloud/gophercloud
+module github.com/zoftdev/gophercloud
 
 go 1.13
 

@@ -5,11 +5,11 @@ package layer3
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/layer3/routers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	networking "github.com/zoftdev/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/layer3/routers"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestLayer3RouterCreateDelete(t *testing.T) {

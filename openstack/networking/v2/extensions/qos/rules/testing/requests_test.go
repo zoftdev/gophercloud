@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/gophercloud/gophercloud/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/rules"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	fake "github.com/zoftdev/gophercloud/openstack/networking/v2/common"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/qos/rules"
+	"github.com/zoftdev/gophercloud/pagination"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestListBandwidthLimitRule(t *testing.T) {

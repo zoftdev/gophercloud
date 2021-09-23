@@ -8,16 +8,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/backups"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumeactions"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes"
-	v3 "github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumes"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumetypes"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/images"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/backups"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/extensions/volumeactions"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/v2/volumes"
+	v3 "github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumes"
+	"github.com/zoftdev/gophercloud/openstack/blockstorage/v3/volumetypes"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/images"
+	"github.com/zoftdev/gophercloud/openstack/compute/v2/servers"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 // CreateUploadImage will upload volume it as volume-baked image. An name of new image or err will be

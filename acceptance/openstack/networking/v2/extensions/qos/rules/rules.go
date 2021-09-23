@@ -3,9 +3,9 @@ package rules
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/rules"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud"
+	"github.com/zoftdev/gophercloud/openstack/networking/v2/extensions/qos/rules"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 // CreateBandwidthLimitRule will create a QoS BandwidthLimitRule associated with the provided QoS policy.

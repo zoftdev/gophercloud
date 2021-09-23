@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/applicationcredentials"
-	"github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/zoftdev/gophercloud/acceptance/clients"
+	"github.com/zoftdev/gophercloud/acceptance/tools"
+	"github.com/zoftdev/gophercloud/openstack"
+	"github.com/zoftdev/gophercloud/openstack/identity/v3/applicationcredentials"
+	"github.com/zoftdev/gophercloud/openstack/identity/v3/tokens"
+	th "github.com/zoftdev/gophercloud/testhelper"
 )
 
 func TestApplicationCredentialsCRD(t *testing.T) {
